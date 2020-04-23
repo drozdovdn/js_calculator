@@ -1,0 +1,27 @@
+/*Спецификация*/
+@font-face {
+    font-family: 'Orbitron-Regular';
+    src: url("fonts/Orbitron-Regular.eot");
+    src: url("fonts/Orbitron-Regular.eot?iefix") format('embedded-opentype'),
+         url("fonts/Orbitron-Regular.woff") format('woff'),
+         url("fonts/Orbitron-Regular.woff2") format('woff2'),
+         url("fonts/Orbitron-Regular.ttf") format('truetype'),
+         url("fonts/Orbitron-Regular.svg#svgFontName") format('svg');
+}
+body, ul, li, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, ul, li, div, section, form, input, button, span, p, img, a {
+    box-sizing: border-box;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration:none;
+}
+input:hover, input:focus {
+    outline: none;
+}
+/*--- Основные стили ---*/
