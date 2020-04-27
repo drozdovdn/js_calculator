@@ -25,3 +25,58 @@ input:hover, input:focus {
     outline: none;
 }
 /*--- Основные стили ---*/
+body {
+    padding-top: 1%;
+}
+.housing {
+    background: #414141;
+    width: 369px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.calculator {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;            /* Non-prefixed version, currently not supported by any browser */
+
+    font-family: 'Orbitron-Regular', sans-serif;
+    margin: 0 auto;
+    width: 335px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    grid-gap: 3px;
+}
+.calculator__button {
+    transition: all 0.5s ease;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: coral;
+}
+
+.calculator__display {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background: darkgrey;
+    padding: 10px;
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-end;
+}
+.calculator__button:hover {
+    background: dodgerblue;
+}
+.func {
+    font-size: 24px;
+}
+.equality {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
