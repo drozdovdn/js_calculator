@@ -31,7 +31,6 @@ const setCalc = (e) => {
         flagEquality = true;
         equalityFunction();
     }
-    console.log(target.innerHTML)
 };
 
 //Вызываем событие click на calculator
@@ -39,7 +38,6 @@ calc.addEventListener('click', setCalc);
 
 //Функция равенства
 function equalityFunction() {
-        console.log(display.innerHTML);
         if(flagCalculation === 'addition') {
             const strResult = String(state + Number(display.innerHTML));
             if(strResult.length > 14) {
